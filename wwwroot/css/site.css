@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/85/837/desktop-wallpaper-fl-studio-20-fl-studio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:orange;
+}
+.text-one{
+   color:orange;
+   font-size:medium;
+   font-family: Bahnschrift; 
+
+}

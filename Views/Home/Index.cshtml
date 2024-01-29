@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="home">
+        <div class="text-center">
+            <h1 class="welcome-text">Welcome to Prod Collab</h1>
+            <div class="text-center">
+                <p class="text-one"> Share a project with a producer</p>
+            </div>
+            <div>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" name="file"  style="color: orange;"/>
+                    <input type="submit" value="Upload"/>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>

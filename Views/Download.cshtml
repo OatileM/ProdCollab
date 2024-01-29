@@ -1,0 +1,26 @@
+﻿@model List<ProdCollab.Models.File> 
+
+<h2>Available Files</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>File Name</th>
+            <th>File Size (Bytes)</th>
+            <th>Date Created</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var file in Model)
+        {
+            <tr>
+                <td>@file.FileName</td>
+                <td>@file.FileSize</td>
+                <td>
+                    <a href="@Url.Action("Download", "Home", new { fileName = file.FileName })">Download</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
